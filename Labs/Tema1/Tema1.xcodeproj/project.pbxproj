@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB23EBE31E6DCA130030AE3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23EBE21E6DCA130030AE3A /* main.m */; };
+		EB23EBE61E6DCA130030AE3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23EBE51E6DCA130030AE3A /* AppDelegate.m */; };
+		EB23EBE91E6DCA130030AE3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23EBE81E6DCA130030AE3A /* ViewController.m */; };
+		EB23EBEC1E6DCA130030AE3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB23EBEA1E6DCA130030AE3A /* Main.storyboard */; };
+		EB23EBEE1E6DCA130030AE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB23EBED1E6DCA130030AE3A /* Assets.xcassets */; };
+		EB23EBF11E6DCA130030AE3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB23EBEF1E6DCA130030AE3A /* LaunchScreen.storyboard */; };
+		EB23EBFC1E6DCA130030AE3A /* Tema1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23EBFB1E6DCA130030AE3A /* Tema1Tests.m */; };
+		EB23EC071E6DCA130030AE3A /* Tema1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23EC061E6DCA130030AE3A /* Tema1UITests.m */; };
+		EB23EC161E6DCAE50030AE3A /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23EC151E6DCAE50030AE3A /* Song.m */; };
+		EB23EC191E6DCB040030AE3A /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23EC181E6DCB040030AE3A /* Playlist.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB23EBF81E6DCA130030AE3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB23EBD61E6DCA130030AE3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB23EBDD1E6DCA130030AE3A;
+			remoteInfo = Tema1;
+		};
+		EB23EC031E6DCA130030AE3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB23EBD61E6DCA130030AE3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB23EBDD1E6DCA130030AE3A;
+			remoteInfo = Tema1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB23EBDE1E6DCA130030AE3A /* Tema1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tema1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB23EBE21E6DCA130030AE3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB23EBE41E6DCA130030AE3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB23EBE51E6DCA130030AE3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB23EBE71E6DCA130030AE3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB23EBE81E6DCA130030AE3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB23EBEB1E6DCA130030AE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB23EBED1E6DCA130030AE3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB23EBF01E6DCA130030AE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB23EBF21E6DCA130030AE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB23EBF71E6DCA130030AE3A /* Tema1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tema1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB23EBFB1E6DCA130030AE3A /* Tema1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tema1Tests.m; sourceTree = "<group>"; };
+		EB23EBFD1E6DCA130030AE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB23EC021E6DCA130030AE3A /* Tema1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tema1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB23EC061E6DCA130030AE3A /* Tema1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tema1UITests.m; sourceTree = "<group>"; };
+		EB23EC081E6DCA130030AE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB23EC141E6DCAE50030AE3A /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Song.h; path = ../Song.h; sourceTree = "<group>"; };
+		EB23EC151E6DCAE50030AE3A /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Song.m; path = ../Song.m; sourceTree = "<group>"; };
+		EB23EC171E6DCB040030AE3A /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		EB23EC181E6DCB040030AE3A /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB23EBDB1E6DCA130030AE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB23EBF41E6DCA130030AE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB23EBFF1E6DCA130030AE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB23EBD51E6DCA130030AE3A = {
+			isa = PBXGroup;
+			children = (
+				EB23EBE01E6DCA130030AE3A /* Tema1 */,
+				EB23EBFA1E6DCA130030AE3A /* Tema1Tests */,
+				EB23EC051E6DCA130030AE3A /* Tema1UITests */,
+				EB23EBDF1E6DCA130030AE3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB23EBDF1E6DCA130030AE3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB23EBDE1E6DCA130030AE3A /* Tema1.app */,
+				EB23EBF71E6DCA130030AE3A /* Tema1Tests.xctest */,
+				EB23EC021E6DCA130030AE3A /* Tema1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB23EBE01E6DCA130030AE3A /* Tema1 */ = {
+			isa = PBXGroup;
+			children = (
+				EB23EC171E6DCB040030AE3A /* Playlist.h */,
+				EB23EC181E6DCB040030AE3A /* Playlist.m */,
+				EB23EBE41E6DCA130030AE3A /* AppDelegate.h */,
+				EB23EC141E6DCAE50030AE3A /* Song.h */,
+				EB23EC151E6DCAE50030AE3A /* Song.m */,
+				EB23EBE51E6DCA130030AE3A /* AppDelegate.m */,
+				EB23EBE71E6DCA130030AE3A /* ViewController.h */,
+				EB23EBE81E6DCA130030AE3A /* ViewController.m */,
+				EB23EBEA1E6DCA130030AE3A /* Main.storyboard */,
+				EB23EBED1E6DCA130030AE3A /* Assets.xcassets */,
+				EB23EBEF1E6DCA130030AE3A /* LaunchScreen.storyboard */,
+				EB23EBF21E6DCA130030AE3A /* Info.plist */,
+				EB23EBE11E6DCA130030AE3A /* Supporting Files */,
+			);
+			path = Tema1;
+			sourceTree = "<group>";
+		};
+		EB23EBE11E6DCA130030AE3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB23EBE21E6DCA130030AE3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB23EBFA1E6DCA130030AE3A /* Tema1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB23EBFB1E6DCA130030AE3A /* Tema1Tests.m */,
+				EB23EBFD1E6DCA130030AE3A /* Info.plist */,
+			);
+			path = Tema1Tests;
+			sourceTree = "<group>";
+		};
+		EB23EC051E6DCA130030AE3A /* Tema1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB23EC061E6DCA130030AE3A /* Tema1UITests.m */,
+				EB23EC081E6DCA130030AE3A /* Info.plist */,
+			);
+			path = Tema1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB23EBDD1E6DCA130030AE3A /* Tema1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB23EC0B1E6DCA130030AE3A /* Build configuration list for PBXNativeTarget "Tema1" */;
+			buildPhases = (
+				EB23EBDA1E6DCA130030AE3A /* Sources */,
+				EB23EBDB1E6DCA130030AE3A /* Frameworks */,
+				EB23EBDC1E6DCA130030AE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tema1;
+			productName = Tema1;
+			productReference = EB23EBDE1E6DCA130030AE3A /* Tema1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB23EBF61E6DCA130030AE3A /* Tema1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB23EC0E1E6DCA130030AE3A /* Build configuration list for PBXNativeTarget "Tema1Tests" */;
+			buildPhases = (
+				EB23EBF31E6DCA130030AE3A /* Sources */,
+				EB23EBF41E6DCA130030AE3A /* Frameworks */,
+				EB23EBF51E6DCA130030AE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB23EBF91E6DCA130030AE3A /* PBXTargetDependency */,
+			);
+			name = Tema1Tests;
+			productName = Tema1Tests;
+			productReference = EB23EBF71E6DCA130030AE3A /* Tema1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB23EC011E6DCA130030AE3A /* Tema1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB23EC111E6DCA130030AE3A /* Build configuration list for PBXNativeTarget "Tema1UITests" */;
+			buildPhases = (
+				EB23EBFE1E6DCA130030AE3A /* Sources */,
+				EB23EBFF1E6DCA130030AE3A /* Frameworks */,
+				EB23EC001E6DCA130030AE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB23EC041E6DCA130030AE3A /* PBXTargetDependency */,
+			);
+			name = Tema1UITests;
+			productName = Tema1UITests;
+			productReference = EB23EC021E6DCA130030AE3A /* Tema1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB23EBD61E6DCA130030AE3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ionut Emanuel Mihailescu";
+				TargetAttributes = {
+					EB23EBDD1E6DCA130030AE3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					EB23EBF61E6DCA130030AE3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB23EBDD1E6DCA130030AE3A;
+					};
+					EB23EC011E6DCA130030AE3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB23EBDD1E6DCA130030AE3A;
+					};
+				};
+			};
+			buildConfigurationList = EB23EBD91E6DCA130030AE3A /* Build configuration list for PBXProject "Tema1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB23EBD51E6DCA130030AE3A;
+			productRefGroup = EB23EBDF1E6DCA130030AE3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB23EBDD1E6DCA130030AE3A /* Tema1 */,
+				EB23EBF61E6DCA130030AE3A /* Tema1Tests */,
+				EB23EC011E6DCA130030AE3A /* Tema1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB23EBDC1E6DCA130030AE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB23EBF11E6DCA130030AE3A /* LaunchScreen.storyboard in Resources */,
+				EB23EBEE1E6DCA130030AE3A /* Assets.xcassets in Resources */,
+				EB23EBEC1E6DCA130030AE3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB23EBF51E6DCA130030AE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB23EC001E6DCA130030AE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB23EBDA1E6DCA130030AE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB23EC161E6DCAE50030AE3A /* Song.m in Sources */,
+				EB23EBE91E6DCA130030AE3A /* ViewController.m in Sources */,
+				EB23EBE61E6DCA130030AE3A /* AppDelegate.m in Sources */,
+				EB23EBE31E6DCA130030AE3A /* main.m in Sources */,
+				EB23EC191E6DCB040030AE3A /* Playlist.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB23EBF31E6DCA130030AE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB23EBFC1E6DCA130030AE3A /* Tema1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB23EBFE1E6DCA130030AE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB23EC071E6DCA130030AE3A /* Tema1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB23EBF91E6DCA130030AE3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB23EBDD1E6DCA130030AE3A /* Tema1 */;
+			targetProxy = EB23EBF81E6DCA130030AE3A /* PBXContainerItemProxy */;
+		};
+		EB23EC041E6DCA130030AE3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB23EBDD1E6DCA130030AE3A /* Tema1 */;
+			targetProxy = EB23EC031E6DCA130030AE3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB23EBEA1E6DCA130030AE3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB23EBEB1E6DCA130030AE3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB23EBEF1E6DCA130030AE3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB23EBF01E6DCA130030AE3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB23EC091E6DCA130030AE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB23EC0A1E6DCA130030AE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB23EC0C1E6DCA130030AE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tema1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplications.Tema1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB23EC0D1E6DCA130030AE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tema1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplications.Tema1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB23EC0F1E6DCA130030AE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tema1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplications.Tema1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tema1.app/Tema1";
+			};
+			name = Debug;
+		};
+		EB23EC101E6DCA130030AE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tema1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplications.Tema1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tema1.app/Tema1";
+			};
+			name = Release;
+		};
+		EB23EC121E6DCA130030AE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tema1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplications.Tema1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tema1;
+			};
+			name = Debug;
+		};
+		EB23EC131E6DCA130030AE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tema1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplications.Tema1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tema1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB23EBD91E6DCA130030AE3A /* Build configuration list for PBXProject "Tema1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB23EC091E6DCA130030AE3A /* Debug */,
+				EB23EC0A1E6DCA130030AE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB23EC0B1E6DCA130030AE3A /* Build configuration list for PBXNativeTarget "Tema1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB23EC0C1E6DCA130030AE3A /* Debug */,
+				EB23EC0D1E6DCA130030AE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB23EC0E1E6DCA130030AE3A /* Build configuration list for PBXNativeTarget "Tema1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB23EC0F1E6DCA130030AE3A /* Debug */,
+				EB23EC101E6DCA130030AE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB23EC111E6DCA130030AE3A /* Build configuration list for PBXNativeTarget "Tema1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB23EC121E6DCA130030AE3A /* Debug */,
+				EB23EC131E6DCA130030AE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB23EBD61E6DCA130030AE3A /* Project object */;
+}
