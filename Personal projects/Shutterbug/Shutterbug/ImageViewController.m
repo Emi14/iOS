@@ -8,21 +8,73 @@
 
 #import "ImageViewController.h"
 
-@interface ImageViewController ()
-
+@interface ImageViewController () <UIScrollViewDelegate>
+@property (strong,nonatomic) UIImageView *imageView;
+@property (strong,nonatomic) UIImage *image;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @end
 
 @implementation ImageViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+-(void) setScrollView:(UIScrollView *)scrollView{
+    _scrollView=scrollView;
+    _scrollView.minimumZoomScale=0.3;
+    _scrollView.maximumZoomScale=2.0;
+    _scrollView.delegate=self;
+    self.scrollView.contentSize=self.image ? self.image.size : CGSizeZero;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(UIView*) viewForZoomingInScrollView:(UIScrollView *)scrollView{
+    return self.imageView;
 }
+
+-(void) setImageURL:(NSURL *)imageURL{
+    _imageURL=imageURL;
+    self.image=[UIImage imageWithData:[NSData dataWithContentsOfURL:self.imageURL]];
+    //[self startDownloadingImage];
+}
+
+/*-(void) startDownloadingImage{
+    
+    self.image=nil;
+    if(self.imageURL){
+        NSURLRequest *request=[NSURLRequest requestWithURL:self.imageURL];
+        NSURLSessionConfiguration *configuration=[NSURLSessionConfiguration ephemeralSessionConfiguration];
+        NSURLSession *session=[NSURLSession sessionWithConfiguration:configuration];
+        NSURLSessionDataTask *task=[session downloadTaskWithURL:request completionHandler:^(NSURL *location, NSURLResponse * response, NSError *error) {
+            if (!error){
+                if([request.URL isEqual:self.imageURL]){
+                    UIImage *image=[UIImage imageWithData:[NSData dataWithContentsOfFile:location]];
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        self.image=image;
+                    });
+                }
+            }
+        }];
+        [task resume];
+    }
+}*/
+
+-(UIImageView*) imageView{
+    if(!_imageView) _imageView=[[UIImageView alloc]init];
+    return _imageView;
+}
+
+-(UIImage*) image{
+    return self.imageView.image;
+}
+
+-(void)setImage:(UIImage *)image{
+    self.imageView.image=image;
+    [self.imageView sizeToFit];
+    self.scrollView.contentSize=self.image ? self.image.size : CGSizeZero;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self.scrollView addSubview:self.imageView];
+}
+
 
 /*
 #pragma mark - Navigation

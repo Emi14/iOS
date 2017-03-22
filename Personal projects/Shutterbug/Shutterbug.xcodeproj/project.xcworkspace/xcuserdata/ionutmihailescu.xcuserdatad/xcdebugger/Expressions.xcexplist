@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ImageViewController setImageURL:]:ImageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[UIImage imageWithData:[NSData dataWithContentsOfURL:self.imageURL]]">
+            </PersistentString>
+            <PersistentString
+               value = "self.image">
+            </PersistentString>
+            <PersistentString
+               value = "self.imageURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustPostedFlickPhotosTVCViewController prepareImageViewController:toDisplayPhoto:]:JustPostedFlickPhotosTVCViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "ivc.imageURL">
+            </PersistentString>
+            <PersistentString
+               value = "[FlickrFetcher URLforPhoto:photo format:FlickrPhotoFormatLarge]">
+            </PersistentString>
+            <PersistentString
+               value = "[FlickrFetcher URLforPhoto:photo]">
+            </PersistentString>
+            <PersistentString
+               value = "ivc.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JustPostedFlickPhotosTVCViewController prepareForSegue:sender:]:JustPostedFlickPhotosTVCViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ImageViewController setImage:]:ImageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imageURL">
+            </PersistentString>
+            <PersistentString
+               value = "self.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
