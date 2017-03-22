@@ -31,7 +31,7 @@ static const CGSize DROP_SIZE={40,40};
 -(DropBehavior *) dropBehavior{
     if(!_dropBehavior){
         _dropBehavior=[[DropBehavior alloc]init];
-        [self.animator addBehavior:_dropBehavior];
+        [self.animator addBehavior:self.dropBehavior];
     }
     return _dropBehavior;
 }

@@ -35,6 +35,8 @@
 
 -(instancetype) init{
     self=[super init];
+    [self addChildBehavior:self.gravity];
+    [self addChildBehavior:self.colider];
     return  self;
 }
 
